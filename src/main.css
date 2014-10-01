@@ -1,0 +1,202 @@
+/*
+****
+GENERAL PAGE CONTENT
+****
+*/
+html {
+    font-size: 62.5%;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+html, body {
+    color: #434242;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    color: #333333;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b {
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight:500;
+    line-height:1.1;
+    margin-bottom:20px;
+}
+
+h2 {
+    font-size: 54px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid red;
+}
+
+p {
+    text-align: left;
+    border: 1px solid red;
+}
+
+.container, .white_container, .blue_container {
+    display: block;
+    width:100%;
+    display:block;
+    float:left;
+}
+
+p.container_title {
+    font-size: 50px;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.white_container {
+    background-color: white;
+}
+
+.blue_container {
+    background-color: #add8e6;
+}
+
+.row {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: 200px;
+    border: 1px solid red;
+    overflow: hidden;
+    display: table;
+}
+
+.left_column, .right_column, .center_column {
+    display: table-cell;
+    width: 33%;
+    border: 1px solid red;
+    padding: 15px;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+/*
+****
+GENERAL PAGE CONTENT
+****
+*/
+
+
+
+/*
+****
+HOME CONTAINER CONTENT
+****
+*/
+
+#home {
+    margin: 0px;
+    height: 100%;
+    background-image: url("horseshoe_bend.jpg");
+}
+
+p.menu_item {
+    -webkit-text-stroke-width: .2px;
+    -webkit-text-stroke-color: black;
+    color: white;
+    display: inline;
+    font-variant: small-caps;
+    font-family: "Georgia";
+    font-size: 20px;
+    margin: 30px;
+}
+
+#menu_bar {
+    text-align: center;
+    margin-top: 0px;
+    background: rgb(34,34,34); /* for IE */
+    background: rgba(34,34,34,0.75);
+    margin-left: auto;
+    margin-right: auto;
+    width: 70em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#home_text {
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+    padding: 35px;
+    background: rgb(34,34,34); /* for IE */
+    background: rgba(34,34,34,0.75);
+}
+
+#home_title {
+    color: white;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Georgia";
+    font-size: 50px;
+}
+
+#home_explore {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-family: "Georgia";
+    font-size: 25px;
+}
+
+/*
+****
+HOME CONTAINER CONTENT
+****
+*/
+
+
+/*
+****
+PROFILE CONTAINER CONTENT
+****
+*/
+
+#profile_img {
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+}
