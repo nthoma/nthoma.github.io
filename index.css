@@ -1,25 +1,18 @@
 /*
-****
 GENERAL PAGE CONTENT
-****
 */
 html {
     font-size: 62.5%;
 }
 
-html {
-    font-family: sans-serif;
-}
-
 html, body {
-    color: #434242;
     font-family: 'Open Sans', sans-serif;
     height: 100%;
     margin: 0px;
 }
 
 body {
-    color: #333333;
+    color: #FFFFFF;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
@@ -40,18 +33,15 @@ h2 {
 h3 {
     font-size: 20px;
     text-align: center;
-    border: 1px solid red;
 }
 
 p {
     text-align: left;
-    border: 1px solid red;
 }
 
-.container, .white_container, .blue_container {
+.container, .white_container, .color_container {
     display: block;
     width:100%;
-    display:block;
     float:left;
 }
 
@@ -61,11 +51,12 @@ p.container_title {
 }
 
 .white_container {
+    color: black;
     background-color: white;
 }
 
-.blue_container {
-    background-color: #add8e6;
+.color_container {
+    background: rgb(34,34,34); /* for IE */
 }
 
 .row {
@@ -75,16 +66,12 @@ p.container_title {
     margin-right: auto;
     width: 750px;
     height: 200px;
-    border: 1px solid red;
     overflow: hidden;
     display: table;
 }
 
 .left_column, .right_column, .center_column {
     display: table-cell;
-    width: 33%;
-    border: 1px solid red;
-    padding: 15px;
 }
 
 /* unvisited link */
@@ -112,54 +99,49 @@ a:active {
 }
 
 /*
-****
-GENERAL PAGE CONTENT
-****
-*/
-
-
-
-/*
-****
 HOME CONTAINER CONTENT
-****
 */
 
 #home {
     margin: 0px;
     height: 100%;
-    background-image: url("horseshoe_bend.jpg");
+    background-image: url("blur_horseshoe_bend.jpg");
 }
 
 p.menu_item {
-    -webkit-text-stroke-width: .2px;
-    -webkit-text-stroke-color: black;
     color: white;
     display: inline;
-    font-variant: small-caps;
-    font-family: "Georgia";
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 20px;
-    margin: 30px;
+    margin: 10px;
 }
 
-#menu_bar {
-    text-align: center;
-    margin-top: 0px;
-    background: rgb(34,34,34); /* for IE */
-    background: rgba(34,34,34,0.75);
-    margin-left: auto;
-    margin-right: auto;
-    width: 70em;
-    padding-top: 15px;
-    padding-bottom: 15px;
+#name_header {
+    color: white;
+    font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    display: inline;
+    margin-right: 100px;
+    font-size: 50px;
+}
+
+#banner {
+     text-align: center;
+     margin-top: 0px;
+     background: rgb(34,34,34); /* for IE */
+     padding-top: 50px;
+     padding-bottom: 50px;
+}
+
+#banner_contents {
+    display: inline;
 }
 
 #home_text {
-    margin-top: 250px;
+    margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
     width: 50em;
-    padding: 35px;
+    padding: 25px;
     background: rgb(34,34,34); /* for IE */
     background: rgba(34,34,34,0.75);
 }
@@ -169,7 +151,7 @@ p.menu_item {
     text-align: left;
     margin-top: 0px;
     margin-bottom: 0px;
-    font-family: "Georgia";
+    font-family: "Georgia", sans-serif;
     font-size: 50px;
 }
 
@@ -178,16 +160,26 @@ p.menu_item {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 0px;
-    font-family: "Georgia";
+    font-family: "Georgia", sans-serif;
     font-size: 25px;
 }
 
-/*
-****
-HOME CONTAINER CONTENT
-****
-*/
+#about_container {
+    width: 25px;
+    padding: 20px;
+}
 
+#details_container {
+    width: 25px;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+#divider {
+    background: grey;
+    width: 1px;
+    height: 10px;
+}
 
 /*
 ****
@@ -198,5 +190,4 @@ PROFILE CONTAINER CONTENT
 #profile_img {
     height: 100px;
     width: 100px;
-    border: 1px solid red;
 }
