@@ -1,0 +1,51 @@
+body {
+	background-image: url("clouds.jpg");
+}
+
+h6 {
+	font-size: 20px;
+}
+
+a {
+	color: white;
+}
+
+#wrapper {
+	background: white;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin: 0px;
+}
+
+.jumbotron {
+	padding: 10px;
+	margin: 0px;
+	/* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(0, 0, 0) transparent;
+    /* RGBa with 0.6 opacity */
+    background: rgba(0, 0, 0, 0.6);#contact {
+    	margin-bottom: 100px;
+    }
+}
+
+#menu {
+	text-align: center;
+}
+
+p.menu_item {
+    text-align: center;
+    display: inline;
+    margin-left: 50px;
+}
+
+.section_title {
+	margin-top: 75px;
+	margin-bottom: 25px;
+	font-size: 40px;
+	text-align: center;
+}
+
+
+#contact {
+	margin-bottom: 100px;
+}
