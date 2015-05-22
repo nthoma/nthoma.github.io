@@ -65,6 +65,11 @@
 	{
 		letter-spacing: 1px;
 	}
+
+	header h3
+	{
+		letter-spacing: 1px;
+	}
 	
 	header .byline
 	{
@@ -242,6 +247,11 @@
 	#content header h2
 	{
 		font-size: 1.8em;
+	}
+
+	#content header h3
+	{
+		font-size: 1.6em;
 	}
 	
 	#content header .byline
