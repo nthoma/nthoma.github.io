@@ -98,7 +98,7 @@
 		}
 
 
-		header h2.center 
+		header h2 .center 
 		{
 			text-align: center;
 		}
@@ -265,6 +265,25 @@
 				padding: 0.50em 0em;
 			}
 
+		table 
+		{
+			margin-top: 2em;
+			width: 40%;
+			font-size: 1.5em;
+		}
+
+			table#left 
+			{
+				margin-left: 4em;
+				float: left;
+			}
+
+			table#right
+			{
+				margin-right: 4em;
+				float: right;
+			}
+
 		.subrow
 		{
 			display: block;
@@ -301,6 +320,9 @@
 				width: 65%;
 				float: right;
 			}
+
+
+
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
@@ -349,7 +371,7 @@
 	.divider
 	{
 		overflow: hidden;
-		border-top: 1px solid #dbdbdb;
+		border-top: 2px solid #dbdbdb;
 	}
 
 /*********************************************************************************/
