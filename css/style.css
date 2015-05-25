@@ -284,6 +284,21 @@
 				float: right;
 			}
 
+			td
+			{
+				padding: .5em;
+			}
+
+			td.star
+			{
+				background: url(../images/star.png) no-repeat center;
+			}
+
+			td.nostar
+			{
+				background: url(../images/nostar.png) no-repeat center;
+			}
+
 		.subrow
 		{
 			display: block;
